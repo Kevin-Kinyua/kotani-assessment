@@ -4,12 +4,13 @@ Tasks:
 1. Sign up on Firebase and create a project
     https://firebase.google.com/
 2.  Create and deploy the Firebase  functions for 
-1.login
-  should have the endpoint https://SERVER_URL/api_v2/api/login . Should be able to sign a user firebase       authentication 
+    1.login
+      should have the endpoint https://SERVER_URL/api_v2/api/login . Should be able to sign a user firebase       authentication 
 
 
-2. createUser
-  should have the endpoint https://SERVER_URL/api_v2/kyc/user/create. should be able to create a user using    firebase authentication. the store the following extra sets of data in firestore.(Data of Birth , ID number)
+    2. createUser
+       should have the endpoint https://SERVER_URL/api_v2/kyc/user/create. should be able to create a user using    
+       firebase authentication. the store the following extra sets of data in firestore.(Data of Birth , ID number)
   
 3. Create and run unit tests using Mocha and Chai to validate the various HTTP Responses:
 
